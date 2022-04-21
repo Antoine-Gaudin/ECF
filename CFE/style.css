@@ -1,0 +1,20 @@
+.navbar{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px 300px ;
+    grid-template-rows: 200px;
+    grid-template-areas: 
+"log . . . connect"
+;
+}
+
+#logo{
+    grid-area: log;
+}
+
+#connection{
+    grid-area: connect;
+    height: 20px;
+    width: 20px;
+    align-items: center;
+    margin-top: 700px;
+}
